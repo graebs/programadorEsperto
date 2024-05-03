@@ -1,0 +1,188 @@
+body{
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   background-image: url("Imagens/background.jpg");
+   background-repeat: no-repeat;
+   background-color:  #0B0117;
+   scroll-behavior: smooth;
+}
+
+.header{
+   position: relative;
+   background-color: #0B0117;
+   height: 100px;
+   position: sticky;
+   top: 0px;
+   padding: 5px;
+   border-bottom: #0B0110 solid 5px;
+   z-index: 1;
+}
+
+.logo{
+   position: relative;
+   display: inline-block;
+   left: -4px;
+   width: 96px;
+   height: 96px;
+}
+
+.buttonHouder{
+   position: relative;
+   display: inline-block;
+   top: -25px;
+   height: 50px;
+   width: calc(100% - 104px);
+}
+
+.buttonHeader{
+   display: inline-block;
+   left: 25px;
+   width: 75px;
+   height: 50px;
+   border: #0B0110 solid 2px;
+}
+
+.body{
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.nav{
+   position: fixed;
+   background-color: #100221;
+   width: 150px;
+   height: 300px;
+   top: 115px;
+   margin: 15px;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 10px black;
+   overflow: hidden;
+}
+
+.nav ul{
+   padding: 0px;
+   list-style: none;
+}
+
+.nav li{   
+   padding: 5px 0px;
+   border-bottom: 1px solid gray;
+}
+
+.nav a{
+   text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: rgb(138, 138, 138);
+   font-style: italic;
+}
+
+.nav a:hover{
+   transition: filter ease-in 0.5s;
+   filter: brightness(5);
+}
+
+.nav li:hover{
+   transition: transform ease-in 0.5s;
+   transform: scale(1.2) translateX(12px);
+}
+
+.pontoNavegacao{
+   position: relative;
+   top: -115px;
+}
+
+.nota{
+   font-family:'Times New Roman', Times, serif;
+   font-size: 5px;
+   color:  rgb(138, 138, 138);
+}
+
+.conteudo{
+   position: relative;
+   left: 185px;
+   margin: 15px;
+   padding: 10px;
+   width: calc(100% - 235px);
+   background-color: #100221;
+   box-shadow: 2px 2px 10px black;
+   z-index: 0;
+}
+
+.conteudo{
+   color: rgb(138, 138, 138);
+}
+
+.conteudo p{   
+   margin:10px 18px;
+}
+
+h1{
+   position: sticky;
+   top: 115px;
+   height: 40px;   
+   margin: 30px 0px 15px 0px;
+   padding: 5px;
+   background-color: #100221;
+   color: darkgray;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.775);
+}
+
+h2{
+   position: sticky;
+   top:115px;
+   height: 40px;
+   background-color: #100221;
+   margin: 30px 0px 15px 0px;
+   padding: 5px 5px 20px 5px;
+   color: rgb(171, 171, 171);
+   border-bottom: 1px solid rgba(128, 128, 128, 0.775);
+   z-index: 1;
+}
+
+.empresaX{
+   margin: 20px 0px 30px 0px;
+}
+
+.nomeEmpresas{
+   position: sticky;
+   top: 150px;
+   background-color: #100221;
+   padding: 0px 0px 5px 10px;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.775);
+   margin-bottom: 10px;
+   z-index: 2;
+}
+
+.nomeEmpresas a{
+   font-size: 1.25em;
+   color: rgb(171, 171, 171);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.logoEmpresas{
+   display: inline-block;
+   height: 90px;
+   width: 300px;
+   margin-left: 10px;
+}
+
+.logoEmpresas img{
+   position: relative;
+   height: 100%;
+   max-width: 100%;
+   z-index: 0;
+}
+
+.descricaoEmpresa{
+   display: inline-block;
+   left: -4px;
+   height: 100%;
+   width: calc(100% - 315px);
+   vertical-align: top;
+}
